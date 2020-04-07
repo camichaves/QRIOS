@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Historial</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-grid>
+      <ion-item *ngFor="let data of this.historial; let i = index">
+        <ion-label>
+          <ion-button (click)="abrirScan(i)" size="small">
+            <p>{{data.info}}</p>
+          </ion-button>
+        </ion-label>
+        <ion-text>
+          <h3>{{data.tipo}}</h3>
+        </ion-text>
+      </ion-item>
+    </ion-grid>
+  </ion-list>
+</ion-content>

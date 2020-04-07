@@ -1,5 +1,8 @@
 {
   "name": "QRAPP",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

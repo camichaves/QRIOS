@@ -25,7 +25,17 @@
 #container a {
   text-decoration: none;
 }
+ion-content{
 
-ion-content ion-toolbar {
-  --background: translucent;
+  --ion-background-color:#86a6df;
+}
+
+ion-toolbar {
+  --background:#5068a9;
+  --color: #ffffffff;
+}
+
+ion-button {
+  --background: #324e7b;
+  --color: #ffffffff;
 }
